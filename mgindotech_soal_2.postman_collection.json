@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "340f50fe-51d9-49b6-b9c3-f0baf6b1012f",
+		"name": "mgindotech_soal_2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "andi",
+							"type": "text"
+						},
+						{
+							"key": "hobi",
+							"value": "mejoget",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "sleman",
+							"type": "text"
+						},
+						{
+							"key": "no_telp",
+							"value": "2312334",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users/6141b84549b29bc8e68fbdee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users/6141b84549b29bc8e68fbdee",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"6141b84549b29bc8e68fbdee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users/6141b84549b29bc8e68fbdee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "budi",
+							"type": "text"
+						},
+						{
+							"key": "hobi",
+							"value": "menari",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "no_telp",
+							"value": "123123123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/users/6141b84549b29bc8e68fbdee",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"6141b84549b29bc8e68fbdee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users/6141afa5f4a6b1780dc6d33e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users/6141afa5f4a6b1780dc6d33e",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"6141afa5f4a6b1780dc6d33e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
