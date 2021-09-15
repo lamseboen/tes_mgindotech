@@ -48,3 +48,11 @@ ___
     * source code : *[soal3.js](soal3.js)*
     * run: `node soal3.js`
     * hasil: ![alt text](hasilSoal3.png)
+
+
+4. soal no 4:
+    * jawaban: aplikasi yang saya akan buat adalah system inventaris.
+    <br/>
+    aplikasi ini untuk mendata inventaris-inventaris tiap bagian/divisi/group dan mempunyai dashboard rekap inventaris seluruh divisi.
+    * diagram:
+
